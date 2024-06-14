@@ -1,0 +1,22 @@
+{
+    "name": "omka_cat/validation",
+    "type": "library",
+    "require": {
+        "php": "^8.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.2",
+        "symfony/http-foundation": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Validation\\": "library/",
+            "Http\\": "http/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
